@@ -114,7 +114,7 @@ During that time, MMOB will post the new order to the designated TPP webhook. Ou
 2. Use MMOB API to query extra information needed, like product, pricing and user details (address, postcode, etc.).
 3. WIth that information, call MMOB API order update, and provide the status
 
-<!-- theme: info -->
+<!-- theme: success -->
 
 > If successful:
 
@@ -141,6 +141,7 @@ During that time, MMOB will post the new order to the designated TPP webhook. Ou
   }
 }
 ```
+
 
 <!-- theme: error -->
 
