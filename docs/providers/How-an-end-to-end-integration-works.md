@@ -10,7 +10,7 @@ A single product can be assigned multiple prices.
 
 ## 1. Set up your products
 
-### 1.1 Create the product
+### 1.1 Create the product
 
 To create a product we are using the following information
 
