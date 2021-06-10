@@ -2,7 +2,7 @@
 tags: [marketplace]
 ---
 
-# How to Install the MMOB Marketplace
+# How to Install your Marketplace
 
 ## Requirements
 
