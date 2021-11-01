@@ -93,7 +93,7 @@ mmob.init({
   // marketplace configuration
   cp_id: 'cp_DhskfrQ5V0HLfcVwbl54Q',
   location: '#mmobMarketplace',
-  marketplace_url: 'marketplace.example.com',
+  marketplace_url: 'https://marketplace.example.com',
 });
 ```
 
