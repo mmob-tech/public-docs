@@ -1,45 +1,42 @@
 ---
 tags: [marketplace]
 ---
-
-# How to Install your Marketplace
+# How to Install your Integration
 
 ## Requirements
 
-### Before you install the MMOB Marketplace
+### Before you install an mmob Integration
 
-Before you install the MMOB Marketplace, we will create a Customer Partner ID (refered as `cp_id`) to give you access to [MMOB Dashboard production](https://dashboard.mmob.com) and [MMOB Dashboard staging](https://dashboard.staging.mmob.com).
+Before you install the mmob Integration you have created through our platform, we will assign you an ID (referred to as  `cp_id`) to give you access to  [MMOB Production Dashboard](https://dashboard.mmob.com/)  and  [MMOB Staging Dashboard](https://dashboard.staging.mmob.com/).
 
-<!-- theme: success -->
-
-> The Customer Partner ID will be used to access both production and staging dashboards.
+> The same ID will be used to access both production and staging dashboards.
 
 ### Content
 
-To install the MMOB marketplace, the following steps are required:
+To install your mmob Integration, the following steps are required:
 
-1. Set up a CNAME on the domain your main website is operating from.
-2. Place MMOB JavaScript script in your header.
-3. Call the marketplace with your user information.
+1.  Set up a CNAME on the domain your main website is operating from.
+2.  Place mmob's JavaScript script in your header.
+3.  Call the integration with your user information.
 
----
+----------
 
 ## 1. Set up a CNAME on the domain your main website is operating from
 
-Due to the latest advancements in browser security and tracking prevention, MMOB Marketplace needs to be served under your domain. To do so, you need to add the following configuration to your DNS:
+Due to the latest advancements in browser security and tracking prevention, an mmob integration needs to be served under your domain. To do so, you need to add the following configuration to your DNS:
 
 ```
-marketplace-staging.example.com   CNAME     marketplace-ingress.staging.mmob.com
-marketplace.example.com           CNAME     marketplace-ingress.prod.mmob.com
+integration-staging.ef-hub.com   CNAME     integration-ingress.staging.mmob.com
+integration.ef-hub.com           CNAME     integration-ingress.prod.mmob.com
 ```
 
----
+----------
 
 ## 2. Place MMOB javascript script in your header
 
-Add this javascript snippet in your header. This is only required on the page that will be displaying your new Marketplace.
+Add this javascript snippet in your header. This is only required on the page that will be displaying your new integration.
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -50,31 +47,29 @@ Add this javascript snippet in your header. This is only required on the page th
 </html>
 ```
 
----
+----------
 
-## 3. Call the marketplace with the right user configuration
+## 3. Call the integration with the right user configuration
 
-#### Add a placeholder for your marketplace
+#### Add a placeholder for your integration
 
-First, add the placeholder DOM that will be containing the marketplace. The marketplace will be loaded using an iFrame that will have `width: 100%` and `height: 100%`.
+First, add the placeholder DOM that will be containing the integration. The integration will be loaded using an iFrame that will have  `width: 100%`  and  `height: 100%`.
 
-Notice that we created an empty div with the id `#mmobMarketplace`
+Notice that we created an empty div with the id  `#mmobIntegration`
 
-```html
+```
 <main class="main=-page">
-  <div id="mmobMarketplace"></div>
+  <div id="mmobIntegration"></div>
 </main>
 ```
 
-<!-- theme: success -->
+> You can control it's size by styling the  `div`.
 
-> You can control it's size by styling the `div`.
+#### Load the integration into the placeholder
 
-#### Load the marketplace into the placeholder
+Once the integration has been added into your HTML page, you will have to call the following script to load it.
 
-Once the marketplace has been added into your HTML page, you will have to call the following script to load it.
-
-```js
+```
 mmob.init({
   customerInfo: {
     // required information
@@ -90,25 +85,18 @@ mmob.init({
     dob: '1968-05-30T21:12:22.275Z',
   },
 
-  // marketplace configuration
+  // integration configuration
   cp_id: 'cp_DhskfrQ5V0HLfcVwbl54Q',
   location: '#mmobMarketplace',
   marketplace_url: 'https://marketplace.example.com',
 });
 ```
+#### Note that the above is an example snippet. To configure the data snippet, you will need to remove the example data
 
-<!-- theme: info -->
+> -   `cp_id`  is the id provided to you
+> -   `location`  is the DOM object that will contain the integration
 
-> - `cp_id` is the id provided to you
-> - `location` is the DOM object that will contain the marketplace
-
-<!-- theme: info -->
-
-> For a given customer, only the field `email`is required. We suggest to provide as much information you can to allow users to join services without having to ask missing fields whenever a provider requires them.
-
-<!-- theme: warning -->
-
-> In a future update, the Key "marketplace_url" will be removed from the snippet and placed in your CP settings in the dashboard.
+> For a given customer, only the field  `email`  is required. We suggest to provide as much information you can to allow users to join services without having to ask missing fields whenever a provider requires them.
 
 ---
 
