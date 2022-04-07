@@ -148,7 +148,7 @@ drinker | String | "yes" / "no"
 number_of_units_per_week | Integer
 meta | JSON | Snake Case key. For any custom data not defined in the field column eg. ```{ "custom_data": 10 }```
 
-> For a given customer, no fields are required. However, we suggest to provide as much information as you can to allow users to join services without having to ask for missing fields whenever a provider requires them.
+> In the snippet, customerInfo is required but all fields are optional. We do suggest however that you provide as much information as you can to allow users to join services without having to ask for missing fields whenever a provider requires them.
 
 ---
 
