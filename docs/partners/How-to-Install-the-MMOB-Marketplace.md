@@ -101,8 +101,8 @@ mmob.init({
   },
 
   // integration configuration
-  cp_id: 'cp_DhskfrQ5V0HLfcVwbl54Q',
-  cp_deployment_id: 'cpd_U8p0uaAUb_upmmKp8cI3B',
+  cp_id: 'cp_XXXXXXXXXXXXXXXXXXXXX',
+  cp_deployment_id: 'cpd_XXXXXXXXXXXXXXXXXXXXX',
   location: '#mmobMarketplace',
   marketplace_url: 'https://marketplace.example.com',
 });
