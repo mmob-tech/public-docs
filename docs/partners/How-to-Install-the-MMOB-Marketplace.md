@@ -51,19 +51,34 @@ Add this javascript snippet in your header. This is only required on the page th
 
 ## 3. Call the integration with the right user configuration
 
-#### Add a placeholder for your integration
+#### Add a container for your integration
 
-First, add the placeholder DOM that will be containing the integration. The integration will be loaded using an iFrame that will have  `width: 100%`  and  `height: 100%`.
+First, add a target DOM element to your page. This is the containing element that the integration will be injected into. It will be loaded using an iFrame that will have  `width: 100%`  and  `height: 100%`.
 
-Notice that we created an empty div with the id  `#mmobIntegration`
+In the example below, we've created an empty div with the id  `#mmobIntegration`, this will be our target div.
 
 ```
-<main class="main=-page">
+<main>
   <div id="mmobIntegration"></div>
 </main>
 ```
 
-> You can control it's size by styling the  `div`.
+> You can control the integration size by styling your containing `div`.
+
+Let's say for example you want to have your integration at full page width and height. You could style your container like so:
+
+```
+width: 100%;
+height: 100vh;
+```
+
+and if you need to accomodate a header:
+
+```
+width: 100%;
+height: calc(100vh - 70px); // For a header that was 70px in height.
+```
+
 
 #### Load the integration into the placeholder
 
@@ -87,14 +102,15 @@ mmob.init({
 
   // integration configuration
   cp_id: 'cp_DhskfrQ5V0HLfcVwbl54Q',
+  cp_deployment_id: 'cpd_U8p0uaAUb_upmmKp8cI3B',
   location: '#mmobMarketplace',
   marketplace_url: 'https://marketplace.example.com',
 });
 ```
 #### Note that the above is an example snippet. To configure the data snippet, you will need to remove the example data
 
-> -   `cp_id`  is the id provided to you
-> -   `location`  is the DOM object that will contain the integration
+> -   `cp_id` and `cp_deployment_id` will be provided to you
+> -   `location`  is the id of the DOM object that will contain your integration
 
 > For a given customer, only the field  `email`  is required. We suggest to provide as much information you can to allow users to join services without having to ask missing fields whenever a provider requires them.
 
