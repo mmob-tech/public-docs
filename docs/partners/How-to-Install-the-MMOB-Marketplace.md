@@ -87,10 +87,7 @@ Once the integration has been added into your HTML page, you will have to call t
 ```
 mmob.init({
   customerInfo: {
-    // required information
     email: 'stephen.hayes@example.com',
-
-    // additional fields
     first_name: 'Stephen',
     surname: 'Hayes',
     gender: 'male',
