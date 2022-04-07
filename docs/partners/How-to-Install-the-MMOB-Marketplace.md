@@ -76,7 +76,7 @@ and if you need to accomodate a header:
 
 ```
 width: 100%;
-height: calc(100vh - 70px); // For a header that was 70px in height.
+height: calc(100vh - 70px); // For a header that is 70px in height.
 ```
 
 
