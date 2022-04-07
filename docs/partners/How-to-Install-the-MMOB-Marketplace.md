@@ -95,10 +95,10 @@ mmob.init({
     surname: 'Hayes',
     gender: 'male',
     title: 'Mr',
-    building_number: "81",
+    building_number: '81',
     address_1: 'Miller Street',
     town_city: 'Hull',
-    postcode: "HG45BU"
+    postcode: 'HG45BU',
     dob: '1968-05-30T21:12:22.275Z',
   },
 
@@ -114,7 +114,7 @@ mmob.init({
 > -   `cp_id` and `cp_deployment_id` will be provided to you
 > -   `location`  is the id of the DOM object that will contain your integration
 
-> For a given customer, only the field  `email`  is required. We suggest to provide as much information as you can to allow users to join services without having to ask for missing fields whenever a provider requires them.
+> For a given customer, no fields are required. However, we suggest to provide as much information as you can to allow users to join services without having to ask for missing fields whenever a provider requires them.
 
 ---
 
