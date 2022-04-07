@@ -82,7 +82,8 @@ height: calc(100vh - 70px); // For a header that is 70px in height.
 
 #### Load the integration into the container
 
-Once the integration has been added into your HTML page, you will have to call the following script to load it.
+Once the integration has been added into your HTML page, you will have to call the script to load it.
+As an example:
 
 ```
 mmob.init({
@@ -106,7 +107,7 @@ mmob.init({
   marketplace_url: 'https://marketplace.example.com',
 });
 ```
-#### Note that the above is an example snippet. To configure the data snippet, you will need to remove the example data
+#### ⚠ Note that the above is an example snippet. To configure the data snippet, you will need to remove the example data
 
 > -   `cp_id` and `cp_deployment_id` will be provided to you
 > -   `location`  is the id of the DOM object that will contain your integration
