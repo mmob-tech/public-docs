@@ -1,11 +1,11 @@
 ---
 tags: [marketplace]
 ---
-# How to Install your Integration
+# How to install your Integration
 
 ## Requirements
 
-### Before you install an mmob Integration
+### Before you install
 
 Before you install the mmob Integration you have created through our platform, we will assign you an ID (referred to as  `cp_id`) to give you access to  [MMOB Production Dashboard](https://dashboard.mmob.com/)  and  [MMOB Staging Dashboard](https://dashboard.staging.mmob.com/).
 
@@ -49,7 +49,7 @@ Add this javascript snippet in your header. This is only required on the page th
 
 ----------
 
-## 3. Call the integration with the right user configuration
+## 3. Call the Integration with the right user configuration
 
 #### Add a container for your integration
 
@@ -58,7 +58,7 @@ First, add a target DOM element to your page. This is the containing element tha
 In the example below, we've created an empty div with the id  `#mmobIntegration`, this will be our target div.
 
 ```
-<main>
+<main class="your-page">
   <div id="mmobIntegration"></div>
 </main>
 ```
