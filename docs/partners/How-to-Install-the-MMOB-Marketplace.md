@@ -95,8 +95,10 @@ mmob.init({
     surname: 'Hayes',
     gender: 'male',
     title: 'Mr',
-    address_1: '1281 Miller Ave',
-    town_city: 'Townsville',
+    building_number: "81",
+    address_1: 'Miller Street',
+    town_city: 'Hull',
+    postcode: "HG45BU"
     dob: '1968-05-30T21:12:22.275Z',
   },
 
