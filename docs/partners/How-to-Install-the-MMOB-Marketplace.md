@@ -111,7 +111,7 @@ mmob.init({
 > -   `cp_id` and `cp_deployment_id` will be provided to you
 > -   `location`  is the id of the DOM object that will contain your integration
 
-## Available fields: `customerInfo` 
+## Available fields for `customerInfo` 
 
 Field | Type | Information
 ---------|----------|---------
