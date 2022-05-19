@@ -1,4 +1,4 @@
-Introduction
+Introduction to the Client Dashboard 
 ------------
 
 The mmob dashboard allows you to:
