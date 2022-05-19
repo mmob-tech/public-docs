@@ -26,7 +26,8 @@ To access our network, you’ll first need to set up your admin account on our d
 
 a.     If you do not receive a confirmation within 24 hours, email [contact@mmob.com](mailto:contact@mmob.com) and we can get you set up manually
 
-![](attachments/989462529/989528070.png)
+![](images/cp-auth0-login.png)
+
 
 **If you’re setting up your account and integration for the first time, you will want to read the** [https://mmob.atlassian.net/l/c/mmcHK2Lh](https://mmob.atlassian.net/l/c/mmcHK2Lh) **which contains the steps for first-time users.**
 
@@ -39,7 +40,7 @@ Now you have gained access to your dashboard, you can explore the following feat
 
 On logging into your dashboard, you will first land on the Analytics tab.
 
-![](attachments/989462529/989167625.png)
+![](images/cp-analytics-screen.png)
 
 The main features are broken down as follows:
 
@@ -47,13 +48,13 @@ The main features are broken down as follows:
 
 If your organisation has enabled multiple Categories (e.g. Broadband, Credit Cards, Current Accounts), you can filter the analytics down to the category level for individual analysis. All you need to do is type the desired category you want to inspect into the search bar.
 
-![](attachments/989462529/989200396.png)
+![](images/cp-category-filter.png)
 
 **2\. Select Date Range**
 
 This feature allows you to break down the analysis into custom time periods. Using the tool, you can see the performance for custom time periods.
 
-![](attachments/989462529/989200402.png)
+![](images/cp-date-picker.png)
 
 You can default to standard time periods by clicking the blue tabs at the bottom of the date picker.
 
@@ -61,7 +62,7 @@ You can default to standard time periods by clicking the blue tabs at the bottom
 
 This line graph updates with the latest customers and orders information synchronously (i.e. as it happens). For a clarification of each metric, be sure to check out the tooltip on each tab.
 
-![](attachments/989462529/988512280.png)
+![](images/cp-tooltip.png)
 
 **4\. Download CSV**
 
@@ -77,7 +78,7 @@ Clicking this button will take you to the ‘View Orders’ tab which is expande
 
 The funnel shows your users' progression through the journeys you have initiated. Tooltips give an explanation of each funnel ‘bucket’.
 
-![](attachments/989462529/988577802.png)
+![](images/cp-funnel.png)
 
 * * *
 
@@ -85,7 +86,7 @@ The funnel shows your users' progression through the journeys you have initiated
 
 The Integrations tab allows you to manage the different collections of embedded products and services across your different channels.
 
-![](attachments/989462529/988938245.png)
+![](images/cp-integration-list.png)
 
 For detailed information on how to create an integration, check out this document: [https://mmob.atlassian.net/l/c/mmcHK2Lh](https://mmob.atlassian.net/l/c/mmcHK2Lh).
 
@@ -96,7 +97,7 @@ Orders
 
 The Orders tab allows you to see order activity as it comes in, as well as commission statuses and performance.
 
-![](attachments/989462529/988708871.png)
+![](images/cp-order-list.png)
 
 The callouts are as follows:
 
@@ -142,7 +143,7 @@ Each order or sign-up which is placed for a product will get its own line item a
 
 This contains a list of customers which have visited your embedded integrations.
 
-![](attachments/989462529/988839949.png)
+![](images/cp-customer-list.png)
 
 There are two types of user which fall within the scope of a ‘Customer’:
 
@@ -150,13 +151,13 @@ There are two types of user which fall within the scope of a ‘Customer’:
     
 *   Anonymous User - This is a user for which the system **cannot** assign a unique identifier. In which case, the user line item will display with a random string of words:
     
-    ![](attachments/989462529/989233169.png)
+    ![](images/cp-anon-user.png)
 
 #### Customer Profile
 
 Clicking on the Customer line-item will then open the **Customer Profile** tab.
 
-![](attachments/989462529/989528085.png)
+![](images/cp-customer-profile.png)
 
 This allows you to see the user details associated with the user in question, as well as information about how and when they they visited your integration.
 
@@ -171,7 +172,7 @@ The timeline tab contains all of the user behaviour events available. There are 
 *   Funnel Events - These include events where users start journeys, view products make a purchase
     
 
-![](attachments/989462529/988774415.png)
+![](images/cp-user-behaviour.png)
 
 * * *
 
@@ -183,7 +184,7 @@ Clicking documentation will take you to [https://docs.mmob.com/](https://docs.mm
 
 ### Settings
 
-![](attachments/989462529/989986817.png)
+![](images/cp-settings-page.png)
 
 The settings page is where you can configure your marketplace URL, CP Name and the primary colour within your integration. The latter sets your primary colour to Key UI elements such as CTAs.
 
