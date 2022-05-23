@@ -12,7 +12,7 @@ There are two types of user which fall within the scope of a ‘Customer’:
     
     ![](images/cp-anon-user.png)
 
-## Customer Profile
+#### Customer Profile
 
 Clicking on the Customer line-item will then open the **Customer Profile** tab.
 
@@ -22,7 +22,7 @@ This allows you to see the user details associated with the user in question, as
 
 It’s important to note that the information contained on the profile will not include any subsequent data the user enters on a given service provider journey. For example, if a credit card sign up journey asks for a national insurance number and the user enters it, this will not be available to you as a CP admin user.
 
-## Timeline
+#### Timeline
 
 The timeline tab contains all of the user behaviour events available. There are two classes of events, including:
 

@@ -1,4 +1,4 @@
-### Integrations
+# Integrations
 
 The Integrations tab allows you to manage the different collections of embedded products and services across your different channels.
 
