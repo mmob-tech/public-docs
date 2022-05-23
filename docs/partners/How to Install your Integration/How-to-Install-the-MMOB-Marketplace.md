@@ -2,7 +2,7 @@
 tags: [marketplace]
 ---
 
-# How to install your Integration
+# How to Install your Integration
 
 ## Requirements
 
