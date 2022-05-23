@@ -2,7 +2,7 @@
 
 This contains a list of customers which have visited your embedded integrations.
 
-![](images/cp-customer-list.png)
+![](/docs/partners/images/cp-customer-list.png)
 
 There are two types of user which fall within the scope of a ‘Customer’:
 
@@ -10,13 +10,13 @@ There are two types of user which fall within the scope of a ‘Customer’:
     
 *   Anonymous User - This is a user for which the system **cannot** assign a unique identifier. In which case, the user line item will display with a random string of words:
     
-    ![](images/cp-anon-user.png)
+    ![](/docs/partners/images/cp-anon-user.png)
 
 #### Customer Profile
 
 Clicking on the Customer line-item will then open the **Customer Profile** tab.
 
-![](images/cp-customer-profile.png)
+![](/docs/partners/images/cp-customer-profile.png)
 
 This allows you to see the user details associated with the user in question, as well as information about how and when they they visited your integration.
 
@@ -31,4 +31,4 @@ The timeline tab contains all of the user behaviour events available. There are 
 *   Funnel Events - These include events where users start journeys, view products make a purchase
     
 
-![](images/cp-user-behaviour.png)
+![](/docs/partners/images/cp-user-behaviour.png)

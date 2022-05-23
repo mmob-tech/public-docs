@@ -7,7 +7,7 @@ Now you have gained access to your dashboard, you can explore the following feat
 
 On logging into your dashboard, you will first land on the Analytics tab.
 
-![](images/cp-analytics-screen.png)
+![](/docs/partners/images/cp-analytics-screen.png)
 
 The main features are broken down as follows:
 
@@ -15,13 +15,13 @@ The main features are broken down as follows:
 
 If your organisation has enabled multiple Categories (e.g. Broadband, Credit Cards, Current Accounts), you can filter the analytics down to the category level for individual analysis. All you need to do is type the desired category you want to inspect into the search bar.
 
-![](images/cp-category-filter.png)
+![](/docs/partners/images/cp-category-filter.png)
 
 #### 2\. Select Date Range
 
 This feature allows you to break down the analysis into custom time periods. Using the tool, you can see the performance for custom time periods.
 
-![](images/cp-date-picker.png)
+![](/docs/partners/images/cp-date-picker.png)
 
 You can default to standard time periods by clicking the blue tabs at the bottom of the date picker.
 
@@ -29,7 +29,7 @@ You can default to standard time periods by clicking the blue tabs at the bottom
 
 This line graph updates with the latest customers and orders information synchronously (i.e. as it happens). For a clarification of each metric, be sure to check out the tooltip on each tab.
 
-![](images/cp-tooltip.png)
+![](/docs/partners/images/cp-tooltip.png)
 
 #### 4\. Download CSV
 
@@ -45,4 +45,4 @@ Clicking this button will take you to the ‘View Orders’ tab which is expande
 
 The funnel shows your users' progression through the journeys you have initiated. Tooltips give an explanation of each funnel ‘bucket’.
 
-![](images/cp-funnel.png)
+![](/docs/partners/images/cp-funnel.png)

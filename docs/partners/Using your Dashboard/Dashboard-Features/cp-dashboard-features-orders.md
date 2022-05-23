@@ -3,7 +3,7 @@
 
 The Orders tab allows you to see order activity as it comes in, as well as commission statuses and performance.
 
-![](images/cp-order-list.png)
+![](/docs/partners/images/cp-order-list.png)
 
 The callouts are as follows:
 
