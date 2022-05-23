@@ -1,3 +1,5 @@
+# Steps to Install your Integration
+
 To install your mmob Integration, the following steps are required:
 
 1.  Set up a CNAME on the domain your main website is operating from.
