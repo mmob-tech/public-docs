@@ -103,4 +103,4 @@ mmob.init({
 
 ## Contact us
 
-Contact us at [info@mmob.com](mailto:info@mmob.com)
+Contact us at [contact@mmob.com](mailto:contact@mmob.com)
