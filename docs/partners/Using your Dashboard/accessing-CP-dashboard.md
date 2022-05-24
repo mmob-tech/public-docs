@@ -1,4 +1,17 @@
-Accessing your Dashboard
+# Introducing mmob's Dashboard
+
+The mmob dashboard allows you to:
+
+*   Curate different products and services for your embedded integration(s)
+    
+*   Analyse and download customer and order data
+    
+*   Track usage and performance of your integration(s)
+    
+*   Access support for troubleshooting purposes
+
+
+## Accessing your Dashboard
 ------------------------
 
 Your dashboard can be accessed globally via [dashboard.mmob.com](http://dashboard.mmob.com). You will need to set up access before you can start using it, using the following process. As part of your organisation’s access, you are able to nominate multiple team members to access the dashboard.
