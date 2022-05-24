@@ -16,7 +16,7 @@ This header summarises the aggregate performance across your integrations.
 
 This feature allows you to break down the analysis into custom time periods. Using the tool, you can see the performance for custom time periods.
 
-## Export Orders**
+## Export Orders
 
 This feature allows you to download order data in CSV format. The CSV itself contains User data and event data information useful for reconciliation or analysis at the broad level. Clicking the button will send a CSV to your downloads, and can be opened using most spreadsheet analysis tools such as Excel or Google Sheets.
 
