@@ -28,4 +28,4 @@ a.     If you do not receive a confirmation within 24 hours, email [contact@
 ![](/./..images/cp-auth0-login.png)
 
 
-**If you’re setting up your account and integration for the first time, you will want to read** [https://docs.mmob.com/docs/articles/a81d1a16ea602-steps-to-install-your-integration] (Steps to Install your Integration) **which contains the steps for first-time users.**
+**If you’re setting up your account and integration for the first time, you will want to read** [Steps to Isntall your Integration](https://docs.mmob.com/docs/articles/a81d1a16ea602-steps-to-install-your-integration]) **which contains the steps for first-time users.**
