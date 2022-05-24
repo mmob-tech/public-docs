@@ -7,20 +7,20 @@ The Orders tab allows you to see order activity as it comes in, as well as commi
 
 The callouts are as follows:
 
-1.  ## Orders
+## Orders
     
 
 This header summarises the aggregate performance across your integrations.
 
-2. ## Select Date Range
+## Select Date Range
 
 This feature allows you to break down the analysis into custom time periods. Using the tool, you can see the performance for custom time periods.
 
-3. ## Export Orders**
+## Export Orders**
 
 This feature allows you to download order data in CSV format. The CSV itself contains User data and event data information useful for reconciliation or analysis at the broad level. Clicking the button will send a CSV to your downloads, and can be opened using most spreadsheet analysis tools such as Excel or Google Sheets.
 
-4. ## Order Line Item
+## Order Line Item
 
 Each order or sign-up which is placed for a product will get its own line item as soon as it is created by the user. A few notes:
 
