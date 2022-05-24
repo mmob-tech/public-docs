@@ -5,7 +5,7 @@ The Orders tab allows you to see order activity as it comes in, as well as commi
 
 ![](./../../images/cp-order-list.png)
 
-The callouts are as follows:
+**The callouts are as follows:**
 
 ## Orders
     
@@ -34,7 +34,7 @@ Each order or sign-up which is placed for a product will get its own line item a
         
 *   **Comm Status** - refers to the status of the commission due for a User order/ signup. This is dependent on the **Status** initially:
     
-    *   If an order’s **status** is anything other than `SUCCESSFUL`, then its corresponding **comm status** will be N/A
+    *   If an order’s **status** is anything other than `SUCCESSFUL`, then its corresponding **comm status** will be `N/A`
         
     *   If **status** is `SUCCESSFUL`, then **comm status** can be `PENDING`, meaning we are waiting on the service provider to confirm when the commission is/will be paid. The amount under `PENDING` will be logged in the Orders header above under **Commission Pending**
         
