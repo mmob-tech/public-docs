@@ -25,7 +25,7 @@ To access our network, you’ll first need to set up your admin account on our d
 
 a.     If you do not receive a confirmation within 24 hours, email [contact@mmob.com](mailto:contact@mmob.com) and we can get you set up manually
 
-![](images/cp-auth0-login.png)
+![](/./../..images/cp-auth0-login.png)
 
 
-**If you’re setting up your account and integration for the first time, you will want to read the** [https://mmob.atlassian.net/l/c/mmcHK2Lh](https://mmob.atlassian.net/l/c/mmcHK2Lh) **which contains the steps for first-time users.**
+**If you’re setting up your account and integration for the first time, you will want to read ** [https://docs.mmob.com/docs/articles/a81d1a16ea602-steps-to-install-your-integration](Steps to Install your Integration) **which contains the steps for first-time users.**
