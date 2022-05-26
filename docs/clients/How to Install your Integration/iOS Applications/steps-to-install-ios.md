@@ -62,7 +62,7 @@ Your whole script should roughly take this form:
     }
 }
 
-On completion of these steps, your integration will load into the screen.
+On completion of these steps, your integration will load into the ui viewer.
 
 
 ![](./../images/5-phone-screen.png)
