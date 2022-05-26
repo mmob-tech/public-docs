@@ -18,15 +18,21 @@ To install an mmob Integration, the following steps are required:
 ---
 ### Step 1: Adding Swift Package Manager
 
-To get started, add https://github.com/mmib-tech/mmob-client-ios.git in Xcode as a package repository.
+To get started, add mmob's package repository in Xcode.
 
 ### Step 2: Import mmob Client Package
 
 ![](./../images/1-add-package-menu.png)
 
+Click `File` -> `Add Packages`
+
 ![](./../images/2-add-package-modal.png)
 
+In the search bar, type https://github.com/mmob-tech/mmob-client-ios.git, on which you will find `mmob-client-ios`.
+
 ![](./../images/3-add-package-modal-confirmation.png)
+
+You will then see 
 
 ---
 ### Script Breakdown
