@@ -54,7 +54,7 @@ Your whole script roughly take this form:
 
 ### Step 5: Update the Client View
 
-func updateUIView(_ uiView: MmobClientView, context: Context) {
+    func updateUIView(_ uiView: MmobClientView, context: Context) {
     }
 }
 
