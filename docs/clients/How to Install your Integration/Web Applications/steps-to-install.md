@@ -23,7 +23,7 @@ integration.ef-hub.com           CNAME     integration-ingress.prod.mmob.com
 
 Add this javascript snippet in your header. This is only required on the page that will be displaying your new integration.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,7 +44,7 @@ First, add a target DOM element to your page. This is the containing element tha
 
 In the example below, we've created an empty div with the id `#mmobIntegration`, this will be our target div.
 
-```
+```html
 <main class="your-page">
   <div id="mmobIntegration"></div>
 </main>
@@ -54,14 +54,14 @@ In the example below, we've created an empty div with the id `#mmobIntegration`,
 
 Let's say for example you want to have your integration at full page width and height. You could style your container like so:
 
-```
+```css
 width: 100%;
 height: 100vh;
 ```
 
 and if you need to accomodate a header:
 
-```
+```css
 width: 100%;
 height: calc(100vh - 70px); // For a header that is 70px in height.
 ```
@@ -71,7 +71,7 @@ height: calc(100vh - 70px); // For a header that is 70px in height.
 Once the integration has been added into your HTML page, you will have to call the script to load it.
 As an example:
 
-```
+```javascript
 mmob.init({
   customerInfo: {
     email: {{customer email}},

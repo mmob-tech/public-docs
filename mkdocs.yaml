@@ -2,7 +2,7 @@ site_name: MMOB internal documentation
 theme:
   name: material
   favicon: https://www.mmob.com/favicon.ico
-  logo: https://www.mmob.com/wp-content/themes/mmob/assets/img/logo/mmob_logo.svg
+  logo: https://assets.mmob.com/mmob.png
   features:
     - navigation.tabs
     - navigation.top
