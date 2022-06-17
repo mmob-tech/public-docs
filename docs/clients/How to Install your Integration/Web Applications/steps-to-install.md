@@ -12,9 +12,9 @@ To install your mmob Integration, the following steps are required:
 
 Due to the latest advancements in browser security and tracking prevention, an mmob integration needs to be served under your domain. To do so, you need to add the following configuration to your DNS:
 
-```
-integration-staging.ef-hub.com   CNAME     integration-ingress.staging.mmob.com
-integration.ef-hub.com           CNAME     integration-ingress.prod.mmob.com
+```bash
+integration-staging.ef-hub.com   CNAME     client-ingress.stag.mmob.com
+integration.ef-hub.com           CNAME     client-ingress.prod.mmob.com
 ```
 
 ---
