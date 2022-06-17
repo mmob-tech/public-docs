@@ -59,7 +59,7 @@ width: 100%;
 height: 100vh;
 ```
 
-and if you need to accomodate a header:
+and if you need to accommodate a header:
 
 ```css
 width: 100%;

@@ -34,39 +34,40 @@ In the search bar, type https://github.com/mmob-tech/mmob-client-ios.git, on whi
 
 ---
 
-### Script Breakdown
-
-Your whole script should roughly take this form:
-
-![](./../images/4-snippet-example.png)
-
----
-
-### Step 3: Set Configuration to cp_id and integration_id
-
-![](./../images/cp-id-swift-config.png)
+### Step 3: Configure the Customer Snippet with the correct parameters
 
 ```swift
-let configuration = MmobConfiguration(
-    configuration: MmobCompanyConfiguration(
-    cp_id: "Your cp_id here"
-    integration_id: "Your chosen integration-id here"
-)
-```
-
-### Step 4: Configure the Customer Snippet with the correct parameters
-
-![](./../images/cp-id-swift-customer.png)
-
-```swift
-customer: MmobCustomerInfo(
+let customer = MmobCustomerInfo(
     email: "john.smith@example.com"
     first_name: "John"
     surname: "Smith"
 )
 ```
 
+Check all the available fields on the list of  
+[Available fields for customer](../../Collecting%20Data/1.-Customer-Info.md)
+
 ---
+
+### Step 4: Set Configuration to cp_id and integration_id
+
+```swift
+let configuration = MmobConfiguration(
+    configuration: MmobCompanyConfiguration(
+        cp_id: "Your cp_id here"
+        integration_id: "Your chosen integration-id here"
+    )
+    customer: customer
+)
+```
+
+---
+
+## Example
+
+Your whole script should roughly take this form:
+
+![](./../images/4-snippet-example.png)
 
 On completion of these steps, your integration will load into the ui viewer.
 
