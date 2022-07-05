@@ -1,4 +1,4 @@
-# iOS Installation
+# Steps to Install your iOS Installation
 
 Installing mmob's package allows you to unlock a world of onward journeys for your customers, all served natively within your iOS applications. mmob's library supports **iOS 13+**, built using **Xcode 13**.
 
