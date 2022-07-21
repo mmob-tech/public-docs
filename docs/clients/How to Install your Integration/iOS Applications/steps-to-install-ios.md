@@ -1,6 +1,6 @@
 # iOS Installation
 
-Installing mmob's package allows you to unlock a world of onward journeys for your customers, all served natively within your iOS applications. mmob's library supports **iOS 13+**, built using **Xcode 13**.
+Installing mmob's package allows you to unlock a world of onward journeys for your customers, all served natively within your iOS applications. mmob's library supports **iOS 13+**, built using **Xcode 14**.
 
 ## Installing your iOS Integration
 
@@ -22,15 +22,15 @@ To get started, add mmob's package repository in Xcode.
 
 ### Step 2: Import mmob Client Package
 
-![](./../images/1-add-package-menu.png)
+![Add Package menu](./../images/1-add-package-menu.png)
 
 Click `File` -> `Add Packages`
 
-![](./../images/2-add-package-modal.png)
+![Add Package modal](./../images/2-add-package-modal.png)
 
 In the search bar, type https://github.com/mmob-tech/mmob-client-ios.git, on which you will find `mmob-client-ios`.
 
-![](./../images/3-add-package-modal-confirmation.png)
+![Add package confirmation](./../images/3-add-package-modal-confirmation.png)
 
 ---
 
